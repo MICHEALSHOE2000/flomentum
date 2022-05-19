@@ -42,6 +42,34 @@ height:50%;}
         right: 10px !important;
         top: 14px !important;
     }
+  .navbars{
+    background:#173459;
+}
+.logo{
+padding:0;
+margin:0;
+width:70%;}
+.nav-link,
+.navbars-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbars-collapse {
+    justify-content: flex-end;
+}
+ @media (max-width: 575px) {
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
+
   .problem{
   min-width:100%;
   max-width:100%;
